@@ -1,0 +1,25 @@
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 80%;
+  background-color: #e8e5df;
+  height: 300px;
+}
+
+.loaderView {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+}
+
+.failureContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

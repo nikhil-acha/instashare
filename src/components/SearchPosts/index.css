@@ -1,0 +1,34 @@
+.searchResultsContainer {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.searchResultPosts {
+  list-style-type: none;
+}
+
+.resultHeading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin: 15px;
+}
+
+.noPostView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.searchLoading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}

@@ -1,0 +1,21 @@
+.storiesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.story-loadContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.storyLoadingView {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

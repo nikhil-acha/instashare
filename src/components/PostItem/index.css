@@ -1,0 +1,111 @@
+.postItem {
+  border: 0.5px solid #989898;
+  width: 100%;
+  margin: 12px;
+  size: cover;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2px;
+  height: 70px;
+}
+
+.profileImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 45px;
+  border: 1.5px solid darkred;
+  padding: 2.5px;
+}
+
+.profileName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: 'black';
+  margin-top: 18px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.post {
+  min-width: 100%;
+  height: 100%;
+}
+
+.interaction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  background-color: transparent;
+  margin: 7px;
+}
+
+.info {
+  padding: 6px;
+  background-color: #ffffff;
+}
+
+.likesSection {
+  padding: 10px;
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.commentItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+}
+
+.time {
+  margin-left: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #a6a4a1;
+  font-weight: 500;
+}
+
+.like-button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.userLink {
+  color: black;
+  text-decoration: none;
+}
+
+.likesCount {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.caption {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.commenter {
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 3px;
+}

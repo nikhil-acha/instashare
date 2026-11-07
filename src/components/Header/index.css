@@ -1,0 +1,115 @@
+.header-logo {
+  height: 38px;
+  width: 75px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #ffffff;
+  height: 10vh;
+  padding-top: 7px;
+}
+
+.nav-links-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 8px;
+}
+
+.link-item {
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-weight: 600;
+  color: black;
+}
+
+.LogoutButton1 {
+  height: 32px;
+  width: 80px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  margin-left: 30px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #989898;
+  border-radius: 2px;
+  width: 280px;
+  background-color: #e6e2da;
+  padding: 1.5px;
+}
+
+.inputSearch {
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 4px 10px 4px 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  background-color: #fafcff;
+}
+
+.icon {
+  color: #989898;
+  font-size: 15px;
+  background-color: #e6e2da;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logoHeading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.searchButton {
+  border-style: none;
+  background-color: transparent;
+}
+.nav-lg-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 50px;
+  margin: auto;
+  padding: 8px;
+}
+@media screen and (max-width: 767px) {
+  .nav-lg-section {
+    display: none;
+  }
+}

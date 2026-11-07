@@ -1,0 +1,32 @@
+.slider-container {
+  margin: auto;
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.storyItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100px;
+  width: 30px;
+  align-self: center;
+}
+.image {
+  height: 84px;
+  width: 84px;
+  border-radius: 42px;
+  border: 1.5px solid red;
+  padding: 2.5px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 8px;
+  text-align: center;
+  margin-top: 9px;
+  width: 90px;
+}

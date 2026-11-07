@@ -1,0 +1,161 @@
+.userProfileSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  margin: 8px;
+  height: 50%;
+  padding: 14px;
+}
+
+.profileContent {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fffbf7;
+  padding: 18px;
+}
+.profilePhoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.imageSection {
+  width: 20%;
+}
+
+.followersSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.followersPosts {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 15px;
+  background-color: transparent;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.storyImage {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #d1cfcb;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 170px;
+  padding-top: 0px;
+}
+
+.highlightimg {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid #d1c9c0;
+  margin: 4px;
+}
+
+.highlightItem {
+  margin: 12px;
+  border: 1px solid #d1c9c0;
+  border-radius: 50%;
+  padding-top: 0px;
+  padding: 3px;
+  margin-top: 0px;
+}
+
+.horizontall {
+  color: #96938f;
+  width: 74%;
+  margin: auto;
+  height: 3px;
+  border-width: 2px;
+}
+
+.postsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 33px;
+  margin: 15px;
+}
+
+.postsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+  margin: auto;
+}
+
+.profilepostItem {
+  margin: 20px;
+}
+
+.postsIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 140px;
+  align-self: flex-start;
+}
+
+.postImgItem {
+  width: 300px;
+}
+
+.postIcon {
+  height: 35px;
+  width: 35px;
+}
+
+.NoPostSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.noPost {
+  height: 60px;
+  width: 70px;
+}
+
+.NoPostContainer {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 23px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
